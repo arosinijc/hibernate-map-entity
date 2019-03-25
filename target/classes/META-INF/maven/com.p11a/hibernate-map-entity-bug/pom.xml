@@ -41,6 +41,13 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>${version.org.slf4j}</version>
         </dependency>
+        
+        <!-- Had to add this to get the test to run. -->
+        <dependency>
+            <groupId>javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.12.1.GA</version>
+        </dependency>
     </dependencies>
 
     <build>
